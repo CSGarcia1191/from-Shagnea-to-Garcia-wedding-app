@@ -1,0 +1,15 @@
+#cathedral-row {
+    background-image: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)), url('../../assets/cathedral.JPG');
+    background-repeat: no-repeat;
+    /* background-size: 100% auto; */
+}
+
+#heritage-hall-row {
+    background-image: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)), url('../../assets/heritage_hall.JPG');
+    background-repeat: no-repeat;
+    /* background-size: 100% auto; */
+}
+
+/* #cathedral-row, #heritage-hall-row {
+    height: 100vh;
+} */

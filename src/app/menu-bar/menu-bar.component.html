@@ -1,0 +1,22 @@
+<section id="theNavbar">
+    <nav class="navbar navbar-expand-cust-md navbar-light bg-light p-0" style="background: linear-gradient(to bottom, rgb(218, 224, 229) 0%, rgb(174, 200, 213) 100%);">
+        <!-- Adding a container here centers the navbar -->
+        <div class="container-fluid">
+            <!-- Adding the w-100 to the row element expands the row across the entire width of the container -->
+            <div class="row mx-auto w-75">
+                <div class="col-sm-12">
+                    <div class="navbar-nav nav-fill">
+                        <!-- Tabs: (default active state implementation for Home tab) -->
+                        <a class="nav-item nav-link {{ tabs[i].state }}"
+                            *ngFor="let tab of tabs; let i = index"
+                            (click)="setActive()"
+                            routerLink="/{{tabs[i].path}}"
+                        >
+                            {{ tabs[i].name }}
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+</section>

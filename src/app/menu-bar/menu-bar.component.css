@@ -1,0 +1,56 @@
+/* Copied from bootstrap.min.css file, adjusted min-width to 802px and renamed class names */
+@media (max-width: 801.98px) {
+    .navbar-expand-cust-md > .container,
+    .navbar-expand-cust-md > .container-fluid,
+    .navbar-expand-cust-md > .container-sm,
+    .navbar-expand-cust-md > .container-md,
+    .navbar-expand-cust-md > .container-lg,
+    .navbar-expand-cust-md > .container-xl {
+      padding-right: 0;
+      padding-left: 0;
+    }
+}
+
+@media (min-width: 802px) {
+    .navbar-expand-cust-md {
+        -ms-flex-flow: row nowrap;
+        flex-flow: row nowrap;
+        -ms-flex-pack: start;
+        justify-content: flex-start
+    }
+    
+    .navbar-expand-cust-md .navbar-nav {
+        -ms-flex-direction: row;
+        flex-direction: row
+    }
+    
+    .navbar-expand-cust-md .navbar-nav .dropdown-menu {
+        position: absolute
+    }
+    
+    .navbar-expand-cust-md .navbar-nav .nav-link {
+        padding-right: .5rem;
+        padding-left: .5rem
+    }
+    
+    .navbar-expand-cust-md > .container,
+    .navbar-expand-cust-md > .container-fluid,
+    .navbar-expand-cust-md > .container-lg,
+    .navbar-expand-cust-md > .container-md,
+    .navbar-expand-cust-md > .container-sm,
+    .navbar-expand-cust-md > .container-xl {
+        -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap
+    }
+    
+    .navbar-expand-cust-md .navbar-collapse {
+        display: -ms-flexbox!important;
+        display: flex!important;
+        -ms-flex-preferred-size: auto;
+        flex-basis: auto
+    }
+    
+    .navbar-expand-cust-md .navbar-toggler {
+        display: none
+    }
+}
